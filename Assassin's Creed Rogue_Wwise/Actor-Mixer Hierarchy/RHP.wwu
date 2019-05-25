@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6D40E1A-9864-4D72-81F9-8AE157A53439}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="RHP" ID="{F6D40E1A-9864-4D72-81F9-8AE157A53439}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<BlendContainer Name="RHP_Camera" ID="{1A7FCD73-C3B3-4466-9B9D-E67C5A6A1281}" ShortID="286041512">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RHP_Whoosh" ID="{F44EFDEF-394D-4ED3-8984-02D2E5100E65}" ShortID="677197928">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+						<Sound Name="RHP_Wind" ID="{307067F3-E882-41B6-ABB4-FB3412D10BC4}" ShortID="774973077">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

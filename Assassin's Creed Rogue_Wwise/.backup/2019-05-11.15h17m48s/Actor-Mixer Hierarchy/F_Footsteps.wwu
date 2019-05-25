@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE22162F-2DEE-49B4-B7FC-91B03B1EE9DA}" SchemaVersion="85" RootDocumentID="{C1B903D9-1384-40F6-B46F-920F6217B93B}">
+	<AudioObjects>
+		<WorkUnit Name="F_Footsteps" ID="{EE22162F-2DEE-49B4-B7FC-91B03B1EE9DA}" OwnerID="{C1B903D9-1384-40F6-B46F-920F6217B93B}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="F_Footsteps_Material" ID="{2841DBB3-76B8-4EA9-AC23-B1120A07E0A2}" ShortID="253033568">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="F_Footsteps_Conctere" ID="{524862EC-8FB6-4309-B09B-9CED84357E0D}" ShortID="1063068050">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="F_Footsteps_Conctere_Walk" ID="{D69AA328-683F-415E-A340-FA0BBBF66910}" ShortID="90526220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Conctere_Jump" ID="{2F3D30B0-2823-4595-9E21-3F23DD492761}" ShortID="858857990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Conctere_Run" ID="{80609172-128C-4C31-8E44-3D27B7504FC8}" ShortID="378716907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Conctere_Walk" ID="{D69AA328-683F-415E-A340-FA0BBBF66910}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Conctere_Run" ID="{80609172-128C-4C31-8E44-3D27B7504FC8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Conctere_Jump" ID="{2F3D30B0-2823-4595-9E21-3F23DD492761}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="F_Footsteps_Grass" ID="{AACA0AB2-05D1-4AF9-B3FE-8007B3E7C421}" ShortID="437781678">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="F_Footsteps_Grass_Walk" ID="{304C73F4-A1F6-42F3-ABA9-26193B27ED86}" ShortID="326110911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Grass_Run" ID="{446D6D6A-6A54-4469-BCB7-EEE1EAB3F76C}" ShortID="318694245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Grass_Jump" ID="{40360979-67CA-49F3-845B-F3D81F915D3C}" ShortID="611503862">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Grass_Run" ID="{446D6D6A-6A54-4469-BCB7-EEE1EAB3F76C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Grass_Jump" ID="{40360979-67CA-49F3-845B-F3D81F915D3C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Grass_Walk" ID="{304C73F4-A1F6-42F3-ABA9-26193B27ED86}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="F_Footsteps_Gravel" ID="{15ACE6F2-FA97-487A-8E22-559E702C46C3}" ShortID="832457090">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="F_Footsteps_Gravel_Run" ID="{F6780444-E16B-4EFA-90FC-6B07426C3C9F}" ShortID="635522163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Gravel_Walk" ID="{5155CD5A-D75A-49F8-89CB-B9F84B7A5EFF}" ShortID="675482072">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Gravel_Jump" ID="{8BFF6A0D-48DB-441B-AA96-C2E55B1C030A}" ShortID="743418192">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Gravel_Jump" ID="{8BFF6A0D-48DB-441B-AA96-C2E55B1C030A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Gravel_Run" ID="{F6780444-E16B-4EFA-90FC-6B07426C3C9F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Gravel_Walk" ID="{5155CD5A-D75A-49F8-89CB-B9F84B7A5EFF}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="F_Footsteps_Stone" ID="{485FEBF7-C837-4864-A684-1F87B5DB6CF2}" ShortID="789756244">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="F_Footsteps_Stone_Climb" ID="{9BCAA855-7169-40FF-859A-057043366719}" ShortID="563642110">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Stone_Run" ID="{A9A323AC-ABED-40F5-B4AB-425BC9016325}" ShortID="695739539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Stone_Walk" ID="{FD2AB367-1BF5-4B9C-AAD7-103943DF8610}" ShortID="323771212">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Stone_Jump" ID="{D6D3AB71-960A-4CC7-B503-71B25E945A60}" ShortID="899393341">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Stone_Climb" ID="{9BCAA855-7169-40FF-859A-057043366719}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Stone_Walk" ID="{FD2AB367-1BF5-4B9C-AAD7-103943DF8610}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Stone_Jump" ID="{D6D3AB71-960A-4CC7-B503-71B25E945A60}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Stone_Run" ID="{A9A323AC-ABED-40F5-B4AB-425BC9016325}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="F_Footsteps_Wood" ID="{765FDBC1-6905-43B9-AB1C-065BE91F1E69}" ShortID="124811820">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="F_Footsteps_Wood_Walk" ID="{5F49690C-8B3B-4BFC-8ABA-EF34A1E39400}" ShortID="288349060">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Wood_Run" ID="{ADE59095-2A8A-4C3A-84A4-3A7316F4FEB0}" ShortID="417244476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="F_Footsteps_Wood_Jump" ID="{60D62BCA-30A0-4486-A3BF-708277BC27E5}" ShortID="563488196">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Wood_Walk" ID="{5F49690C-8B3B-4BFC-8ABA-EF34A1E39400}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Wood_Run" ID="{ADE59095-2A8A-4C3A-84A4-3A7316F4FEB0}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="F_Footsteps_Wood_Jump" ID="{60D62BCA-30A0-4486-A3BF-708277BC27E5}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="F_Footsteps_Grass" ID="{AACA0AB2-05D1-4AF9-B3FE-8007B3E7C421}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="F_Footsteps_Wood" ID="{765FDBC1-6905-43B9-AB1C-065BE91F1E69}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="F_Footsteps_Conctere" ID="{524862EC-8FB6-4309-B09B-9CED84357E0D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="F_Footsteps_Gravel" ID="{15ACE6F2-FA97-487A-8E22-559E702C46C3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="F_Footsteps_Stone" ID="{485FEBF7-C837-4864-A684-1F87B5DB6CF2}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

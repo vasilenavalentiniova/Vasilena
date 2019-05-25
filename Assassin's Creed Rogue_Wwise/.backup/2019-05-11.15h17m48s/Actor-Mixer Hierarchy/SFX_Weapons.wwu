@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57E29315-CAD9-4AFE-98E2-ACB4289A788E}" SchemaVersion="85" RootDocumentID="{961BAE59-D490-4840-8108-1DB146F00F3D}">
+	<AudioObjects>
+		<WorkUnit Name="SFX_Weapons" ID="{57E29315-CAD9-4AFE-98E2-ACB4289A788E}" OwnerID="{961BAE59-D490-4840-8108-1DB146F00F3D}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SFX_W_Sword" ID="{C23B2AB8-06E7-4830-945B-7B6811E5C31A}" ShortID="479406833">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SFX_W_Sword_Attack" ID="{5B62EE4F-68AF-41F3-93BC-F7686229FE7B}" ShortID="1037918679">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_W_Sword_Foley" ID="{C5C1B154-5F75-4E46-80CA-5545E39215F4}" ShortID="876688645">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_W_Sword_Whoosh" ID="{642CCCEB-4C97-430D-ACD7-1C2E4F6518C1}" ShortID="193537721">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="SFX_W_Cavalry_Saber" ID="{F2B01771-9F9E-47F9-B22D-7AFFE8B95368}" ShortID="226524057">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="SFX_W_Musket" ID="{A318E764-7FC2-465B-82AF-4E1A9C71D6FC}" ShortID="222964423">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="SFX_W_Hidden_Blade" ID="{F144C40B-B52C-4C89-9636-79E5846116D6}" ShortID="911355061">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="SFX_W_Pistol" ID="{9FBFBDFE-94F1-4316-B6B6-57EB44247386}" ShortID="747418698">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

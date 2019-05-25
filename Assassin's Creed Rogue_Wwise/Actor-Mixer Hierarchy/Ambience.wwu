@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3411DA95-F101-4870-833C-486C7326D158}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{3411DA95-F101-4870-833C-486C7326D158}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="AMB_Interior" ID="{C11BFB50-56BF-4EA4-A2B8-4E5A2E876357}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB_Exterior" ID="{418FE9A6-FBAD-46CE-8396-5E31032B010A}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB_Walla" ID="{422D1FCE-D239-4028-9B32-D52C80CEC3CE}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB_Weppa" ID="{2944D055-1A01-4764-9F8A-80868DBDDFD7}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB_3D" ID="{2B4461D0-975D-463A-A3E1-4FAD2109E55F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

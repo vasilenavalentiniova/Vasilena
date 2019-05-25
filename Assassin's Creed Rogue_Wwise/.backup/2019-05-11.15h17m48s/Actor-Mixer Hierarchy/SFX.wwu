@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{961BAE59-D490-4840-8108-1DB146F00F3D}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{961BAE59-D490-4840-8108-1DB146F00F3D}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="SFX_Weapons" ID="{57E29315-CAD9-4AFE-98E2-ACB4289A788E}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX_HUD" ID="{DF558149-82A6-4DE3-83C3-326C2807AE85}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX_Environment" ID="{404A5934-6B0D-47B0-BCEF-5E1488BB9EC7}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

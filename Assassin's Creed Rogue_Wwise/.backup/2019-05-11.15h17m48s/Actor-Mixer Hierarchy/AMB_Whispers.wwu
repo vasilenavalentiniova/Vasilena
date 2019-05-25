@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9072F42-8119-4A45-BFBB-39485224493A}" SchemaVersion="85" RootDocumentID="{3411DA95-F101-4870-833C-486C7326D158}">
+	<AudioObjects>
+		<WorkUnit Name="AMB_Whispers" ID="{F9072F42-8119-4A45-BFBB-39485224493A}" OwnerID="{3411DA95-F101-4870-833C-486C7326D158}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="AMB_Whispers_NPC" ID="{C762FFE4-2666-4FFF-B0D2-0CDEB6D3FB47}" ShortID="600464307">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ECA4B361-AC64-4CDD-95D3-57F23367AF19}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{40377365-95EB-47DD-B136-FDB6BB7BAA0B}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

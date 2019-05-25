@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C1B903D9-1384-40F6-B46F-920F6217B93B}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Foley" ID="{C1B903D9-1384-40F6-B46F-920F6217B93B}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="F_Body" ID="{A6CEC7C2-B5DB-46E3-8EDA-04D2ADBC5F60}" PersistMode="Reference"/>
+				<WorkUnit Name="F_Footsteps" ID="{EE22162F-2DEE-49B4-B7FC-91B03B1EE9DA}" PersistMode="Reference"/>
+				<WorkUnit Name="F_Cloth" ID="{7D58D2E8-7612-48C7-B127-D6803A29298E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

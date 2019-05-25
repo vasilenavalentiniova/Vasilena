@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1371E28A-9A77-434F-AC37-CB2BC628894C}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Voice" ID="{1371E28A-9A77-434F-AC37-CB2BC628894C}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="VO_Cin" ID="{F122358C-A5F5-47E2-86D6-FBEA88B7BEF7}" PersistMode="Reference"/>
+				<WorkUnit Name="VO_Ono_Player" ID="{90DBE975-3D00-4FE3-870F-0886E65DC259}" PersistMode="Reference"/>
+				<WorkUnit Name="VO_Ono_NPC" ID="{D8CC7AE3-2BD8-4BD3-8432-3C5089426752}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

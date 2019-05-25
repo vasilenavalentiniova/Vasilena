@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F122358C-A5F5-47E2-86D6-FBEA88B7BEF7}" SchemaVersion="85" RootDocumentID="{1371E28A-9A77-434F-AC37-CB2BC628894C}">
+	<AudioObjects>
+		<WorkUnit Name="VO_Cin" ID="{F122358C-A5F5-47E2-86D6-FBEA88B7BEF7}" OwnerID="{1371E28A-9A77-434F-AC37-CB2BC628894C}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

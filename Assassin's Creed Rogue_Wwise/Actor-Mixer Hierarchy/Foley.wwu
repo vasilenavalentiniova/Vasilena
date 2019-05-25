@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C1B903D9-1384-40F6-B46F-920F6217B93B}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Foley" ID="{C1B903D9-1384-40F6-B46F-920F6217B93B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Foley_Player" ID="{11032071-D7D5-4107-A5AC-358949B412FE}" PersistMode="Reference"/>
+				<WorkUnit Name="Foley_NPC" ID="{37E49313-6DF2-4045-90D4-18F2BA85907E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

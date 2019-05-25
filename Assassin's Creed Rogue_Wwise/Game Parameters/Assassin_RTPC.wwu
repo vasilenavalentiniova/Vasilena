@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9A8D3E05-1C59-4832-9BC4-027CC0D5A3EA}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Assassin_RTPC" ID="{9A8D3E05-1C59-4832-9BC4-027CC0D5A3EA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Waterfall_GP" ID="{FD0E64A0-DBFA-4708-9A0E-A63113EBEEC3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="25"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="Min" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Weppa_Density_GP" ID="{87E29EE6-ED5E-4736-BB5D-0B6D11E3B4F6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="15"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
+						<Property Name="Min" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

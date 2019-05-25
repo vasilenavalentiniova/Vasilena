@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{446D7EE3-DCAB-494C-A345-071BC2AB826D}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Assassin_S" ID="{446D7EE3-DCAB-494C-A345-071BC2AB826D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Assassin_S_Weppa" ID="{D0B8DC66-B6F5-4DC8-B0BB-B4D3B34C0A4C}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Assassin_S_Weppa_Small" ID="{EFEE1967-8277-4BCD-82ED-BDF008DCC4A1}"/>
+						<Switch Name="Assassin_S_Weppa_Large" ID="{5BCBF99E-6FDA-4C8B-BC4F-3718C70576BA}"/>
+						<Switch Name="Assassin_S_Med" ID="{075FA81B-3050-4C3C-B78A-E88CA82868C3}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Weppa_Density_GP" ID="{87E29EE6-ED5E-4736-BB5D-0B6D11E3B4F6}"/>
+						<Curve Name="" ID="{9BD3003A-7830-483D-B7B0-86EC454778B8}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>10</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>15.02778</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>19.999</XPos>
+									<YPos>0</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
